@@ -1,0 +1,22 @@
+.main-body{
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+.body{
+    margin-bottom: 17rem;
+}
+.skill-box{
+    display: flex;
+    gap:3rem;
+    margin-bottom: 3rem;
+    padding-left: 2rem;
+}
+/* .project-grid{
+    display: flex;
+    
+} */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    grid-gap: 5rem; 
+  }

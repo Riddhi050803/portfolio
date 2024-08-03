@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import About from './Components/About';
+import Project from './Components/Project';
+import Introduction from './Components/Introduction';
+import PhoneMenu from './Components/PhoneMenu';
+import HorizontalBox from './Components/HorizontalBox';
+import AutoLayoutExample from './Components/AutoLayoutExample';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHome, faUser, faCogs, faProjectDiagram, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { CgEnter } from 'react-icons/cg';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="components-container">
+        <div className="about-container">
+          <About />
+        </div>
+        <div className="introduction-container">
+          <Introduction />
+        </div>
+        <div>
+          <PhoneMenu />
+        </div>
+        
+      </div>
     </div>
   );
 }

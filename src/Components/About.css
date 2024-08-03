@@ -1,0 +1,74 @@
+.phone {
+    width: 300px;
+    height: 600px;
+    border: 3px solid white;
+    border-radius: 36px;
+    background: #222629;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    margin: 20px auto;
+  }
+  .icons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .icons a {
+    color: #787373;
+    text-decoration: none;
+  }
+  
+  .icons a:hover {
+    color: #007bff;
+  }
+  .screen {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 38%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .introduction {
+    text-align: center;
+  }
+  
+  .phone h2 {
+    margin: 10px 0;
+    color:aliceblue;
+  }
+  
+  .introduction p {
+    font-size: 14px;
+    color: #ffffffd7;
+  }
+  
+  .contact-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #86C232;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-button:hover {
+    background-color: #4b6d1c;
+  }
+  
