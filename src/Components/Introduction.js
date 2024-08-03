@@ -107,7 +107,7 @@ const Introduction = () => {
         <div className='skill-box para1'>
           <VerticalBox logoSrc='/html.png' title="HTML5" />
           <VerticalBox logoSrc='/CSS-Logo.png' title="CSS3" />
-          <VerticalBox logoSrc='/javaScript_logo.png' title="JavaScript" />
+          <VerticalBox logoSrc='/JavaScript_logo.png' title="JavaScript" />
         </div>
         <div className='skill-box' style={{ paddingBottom: '10rem' }}>
           <VerticalBox logoSrc='/logo192.png' title="react js" />
@@ -123,7 +123,7 @@ const Introduction = () => {
         <div className="project-grid para1">
           <Project
             title="Project 1"
-            imageSrc='/Project1.png'
+            imageSrc='/project1.png'
             description="E-commerce cart management website with react and redux toolkit."
             demoLink="https://food-pigeon.vercel.app/"
             githubLink="https://github.com/Riddhi050803/Food--Pigeon"
