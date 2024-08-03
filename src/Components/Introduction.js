@@ -132,8 +132,8 @@ const Introduction = () => {
             title="Project 2"
             imageSrc='/project2.png'
             description="Portfolio website with unique UI and interactive features."
-            demoLink="https://example.com/demo2"
-            githubLink="https://github.com/example/project2"
+            demoLink="https://riddhi-rustagi-portfolio.vercel.app/"
+            githubLink="https://github.com/Riddhi050803/portfolio"
           />
         </div>
         <div className="project-grid">
