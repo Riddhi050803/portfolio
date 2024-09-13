@@ -21,3 +21,10 @@
     font-size: 13px;
   }
   
+  @media (max-width:768px) {
+    .horizontal-box {
+      
+      margin-left: 0;
+    }
+    
+  }

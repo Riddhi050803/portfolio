@@ -3,13 +3,12 @@ import './About.css';
 import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const About = () => {
-  const handleContactClick = () => {
-  
-    const contactForm = document.querySelector('.contact-form-container');
-    if (contactForm) {
-      contactForm.scrollIntoView({ behavior: 'smooth' });
-    }
+  const handleResumeClick = () => {
+    // Replace 'resume.pdf' with the actual path or link to your resume
+    const resumeLink = 'https://drive.google.com/file/d/1VN-_Rqw0Y6Z3k__eyA4p_LCSo1lT57u8/view?usp=sharing';
+    window.open(resumeLink, '_blank');
   };
+ 
 
   return (
     <div className="phone">
@@ -31,7 +30,7 @@ const About = () => {
             <FaGithub size={30} />
           </a>
         </div>
-        <button className="contact-button" onClick={handleContactClick}>Contact Me</button>
+        <button className="contact-button" onClick={handleResumeClick}>View Resume</button>
       </div>
     </div>
   );

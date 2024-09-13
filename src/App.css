@@ -2,9 +2,10 @@
 
 body{
   background-color: #222629;
+  overflow-x: hidden;
 }
 .App {
-  text-align: center;
+  text-align:center;
   position: relative; /* Ensure the absolute positioning is relative to the App container */
 }
 
@@ -30,56 +31,78 @@ body{
 }
 
 
-
+h1{
+  font-family: montserrat;
+  font-size: 3.7rem;
+   color: whitesmoke;
+}
 /* Media query for tablets and smaller devices */
 @media (max-width: 768px) {
-  body{
-    margin:0;
-    padding:0;
-    
+  .App {
+    text-align: left;
+    position: absolute; 
+    overflow-x: hidden;
+    width:100vw;
   }
-  .body, .para ,.body1,.para1{
-    opacity: 1 !important;
-    transform: none !important;
-   margin-left: 0%;
-   width:fit-content
-  }
+ Body{
+  overflow-x: hidden;
+ }
+ 
+ .components-container{
+  flex:none;
+  margin-left: 0; 
+  overflow-x: hidden;
+}
+.about-container {
+ 
+  display: none;
+}
+.introduction-container {
+  position: relative;
+  width: 100vw;
+  margin-left: 0; 
+  margin-right: 0; 
+  align-items: normal;
+  top : 5rem;
+}
+.body, .para ,.body1,.para1{
+  opacity: 1 !important;
+  transform: none !important;
+  margin-left: 0;
+}
+ 
+}
+ 
   
-  .components-container{
-    flex-direction: column;
-  }
-  .about-container {
+  
+  
+  /* .about-container {
     width: 100%;
     margin-left: 80%;
     position: relative;
-  }
-  
-  .introduction-container {
-    width: 100%;
-    margin-left: 0px; /* Adjust for the width of the About container */
-    top :10rem;
-   padding-left: 0;
-  }
+  } */
   
   
+  
+/*   
   .main-body{
     padding-left:0;
     width: 40rem;
-  }
-  .horizontal-box{
+  } */
+  /* .horizontal-box{
     padding-left: 0%;
-  }
-  .contact-form-container{
+  } */
+  /* .contact-form-container{
     width:10rem;
     margin-left:0;
     padding-right: 15rem;
     padding-left: 15rem;
-  }
-  .project-grid {
+  } */
+  /* .project-grid {
     display: flex;
     justify-items: center;
     padding-right: 5rem;
     padding-left: 7rem;
-  }
-}
+  } */
+
 

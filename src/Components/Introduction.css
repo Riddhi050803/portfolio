@@ -11,12 +11,36 @@
     margin-bottom: 3rem;
     padding-left: 2rem;
 }
-/* .project-grid{
-    display: flex;
-    
-} */
+
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
     grid-gap: 5rem; 
+  }
+  @media (max-width: 768px) {
+    .skill-box{
+        width:100vh;
+        display:inline-table;
+        gap:0.5rem;
+        margin-bottom: 3rem;
+        padding-left: 0rem;
+    }
+    h1{
+        font-family: 'montserrat';
+        font-size: '3rem';
+         color: 'whitesmoke';
+         text-wrap: wrap;
+    }
+    .project-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax( 90vh, 1fr)); 
+        grid-gap: 1rem; 
+      }
+      .main-body{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .para{
+     width: 250px;
+    }
   }
