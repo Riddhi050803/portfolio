@@ -108,8 +108,6 @@ const Introduction = () => {
           <VerticalBox logoSrc='/html.png' title="HTML5" />
           <VerticalBox logoSrc='/CSS-Logo.png' title="CSS3 & Bootstrap" />
           <VerticalBox logoSrc='/logo192.png' title="react + redux" />
-        </div>
-        <div className='skill-box' style={{ paddingBottom: '10rem' }}>
         <VerticalBox logoSrc='/JavaScript_logo.png' title="JavaScript" />
           <VerticalBox logoSrc='image.png' title="C++"  />
           <VerticalBox logoSrc='/figma.png' title="Figma" />
@@ -135,8 +133,6 @@ const Introduction = () => {
             demoLink="https://riddhi-rustagi-portfolio.vercel.app/"
             githubLink="https://github.com/Riddhi050803/portfolio"
           />
-        </div>
-        <div className="project-grid">
           <Project
             title="Project 3"
             imageSrc='/project3.png'
