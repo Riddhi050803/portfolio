@@ -20,6 +20,7 @@
   @media (max-width: 768px) {
     .skill-box{
         width:100vh;
+        margin-left: 20%;
         display:inline-table;
         gap:0.5rem;
         margin-bottom: 3rem;
